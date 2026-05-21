@@ -31,7 +31,7 @@ public class DashboardController {
             default -> "•";
         };
     }
-
+    
     public Parent createFeatureView(String feature, AppUser user) {
         return switch (feature) {
             case "Thông tin tài khoản" -> new AccountInfoView(user).getView();
