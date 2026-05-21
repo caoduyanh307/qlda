@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "com.ddangkhoa.trafficfx.MainApp",
+      "projectName": "traffic-javafx-mvc"
+    },
+    {
+      "type": "java",
+      "name": "Run JavaFX App",
+      "request": "launch",
+      "mainClass": "com.ddangkhoa.trafficfx.MainApp",
+      "projectName": "traffic-javafx-final"
+    }
+  ]
+}
